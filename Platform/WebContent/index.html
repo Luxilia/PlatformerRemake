@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>DUNGeon</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            container
+            { 
+                width: 100%; 
+                height: 100%;
+                
+            }
+            html, body {
+                width: 100%; 
+                height: 100%; 
+                margin: 0;
+                background-color: black;
+                text-align: center;
+                background-image: url('images/bg.jpg');
+                background-attachment: inherit;
+                background-repeat: repeat;
+                -moz-user-select     : none;
+                -khtml-user-select   : none;
+                -webkit-user-select  : none;
+                -o-user-select       : none;
+                user-select          : none;
+                overflow: hidden;
+            }
+         </style>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    </head>
+    <body onload="main()">
+        <div id="container"></div>
+        <div id="gameOverPopup"></div>
+        <script type="text/javascript" src="lib/three.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="js/OrbitControls.js"></script>
+        <script type="text/javascript" src="js/stats.min.js"></script>
+        <script type="text/javascript" src="js/Detector.js"></script>
+        <script type="text/javascript" src='js/renderers/WindowResize.js'></script>
+        <script type="text/javascript" src="js/renderers/Projector.js"></script>
+        <script type="text/javascript" src="js/loaders/DDSLoader.js"></script>
+        <script type="text/javascript" src="js/loaders/MTLLoader.js"></script>
+        <script type="text/javascript" src="js/loaders/OBJMTLLoader.js"></script>
+        <script type="text/javascript" src="lib/physi.js"></script>
+        
+        <script type="text/javascript" src="js/levelGenerator.js"></script>
+        <script type="text/javascript" src="js/level1Generator.js"></script>
+        <script type="text/javascript" src="js/level2Generator.js"></script>
+        <script type="text/javascript" src="js/level3Generator.js"></script>
+        <script type="text/javascript" src="js/level4Generator.js"></script>
+        <script type="text/javascript" src="js/charController.js"></script>
+        <script type="text/javascript" src="js/trapController.js"></script>
+        <script type="text/javascript" src="js/hudController.js"></script>
+        <script type="text/javascript" src="js/character.js"></script>
+        <script type="text/javascript" src="js/PickUpItem.js"></script>
+        <script type="text/javascript" src="js/GatherItem.js"></script>
+        <script type="text/javascript" src="js/Trap.js"></script>
+        <script type="text/javascript" src="js/TrapTrigger.js"></script>
+        <script type="text/javascript" src="js/Pendulum.js"></script>
+        <script type="text/javascript" src="js/MovingPlatform.js"></script>
+        <script type="text/javascript" src="js/IcePillar.js"></script>
+        <script type="text/javascript" src="js/Dunno.js"></script>
+        <script type="text/javascript" src="js/SpecialTile.js"></script>
+        <script type="text/javascript" src="js/Lever.js"></script>
+        <script type="text/javascript" src="js/Door.js"></script>
+        <script type="text/javascript" src="js/Enemy.js"></script>
+        <script type="text/javascript" src="js/Tips.js"></script>
+        <script type="text/javascript" src="js/platform.js"></script> 
+   </body>
+</html>    
